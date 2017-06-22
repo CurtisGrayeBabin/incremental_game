@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Clicker Game!</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="page-header">
+    <blockquote class="blockquote">
+      <h1 class="display-1">Clicker Game</h1>
+      <footer>by Curtis Babin</footer>
+    </blockquote>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row center">
+
+
+        <div class="col-lg-4">
+          <input id="plusOne" class="btn btn-success btn-block" type="button" value="+1/click" onclick="this.blur();"/>
+          <p id="free_message" class="info">Keep Clicking!</p>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="points">
+            <p id="data" >0</p> <!-- user's points -->
+          </div>
+          <p id="pps" class="info">Points/Second: 0</p>
+        </div>
+
+
+        <div class="col-lg-4">
+          <input id="upgrade" class="btn btn-danger btn-block" type="button" value="+1/second" onclick="this.blur();" />
+          <p id="cost_message" class="info">Cost: 10</p>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- Event handlers in following script -->
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

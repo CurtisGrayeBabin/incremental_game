@@ -1,0 +1,19 @@
+.center {
+  text-align: center;
+}
+
+input[type="button"]{
+    width:200px;
+    height:200px;
+    font-size: 400%;
+}
+
+.points {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 600%;
+}
+
+.info {
+  font-size: 200%;
+}
